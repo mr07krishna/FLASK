@@ -1,0 +1,21 @@
+<!-- This is a simple HTML page -->
+<html>
+<head>
+    <title>{{ title }}</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials for HTML and CSS">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <h1>Hello, World!  Welcome to my {{title}} page </h1>
+    <p>This is a paragraph of  My {{title}} page</p>
+    {% block content %}
+    
+    {% endblock  %}
+
+</body>
+</html>
